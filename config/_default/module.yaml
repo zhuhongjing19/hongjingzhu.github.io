@@ -5,19 +5,19 @@
 ############################
 
 imports:
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+  - path: https://zhuhongjing19.github.io/hongjingzhu.github.io/
+  - path: https://zhuhongjing19.github.io/hongjingzhu.github.io/
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
-  - source: hugo-blox/blox/community
-    target: layouts/partials/blox/community/
+  - source: https://zhuhongjing19.github.io/hongjingzhu.github.io/
+    target: https://zhuhongjing19.github.io/hongjingzhu.github.io/
     includeFiles: '**.html'
-  - source: hugo-blox/blox/all-access
-    target: layouts/partials/blox/
+  - source: https://zhuhongjing19.github.io/hongjingzhu.github.io/
+    target: https://zhuhongjing19.github.io/hongjingzhu.github.io/
     includeFiles: '**.html'
-  - source: hugo-blox/blox
-    target: assets/dist/community/blox/
+  - source: https://zhuhongjing19.github.io/hongjingzhu.github.io/
+    target: https://zhuhongjing19.github.io/hongjingzhu.github.io/
     includeFiles: '**.css'
   - source: layouts
     target: layouts
